@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* The Modal (background) */
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                padding-top: 100px; /* Location of the box */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0, 0, 0); /* Fallback color */
+                background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+            }
+
+            /* Modal Content */
+            .modal-content {
+                background-color: #fefefe;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+            }
+
+            /* The Close Button */
+            .close {
+                color: #aaaaaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+  
+
+        <!-- Trigger/Open The Modal -->
+        <div class="btn_container"><button id="myBtn">Create New Account</button></div>
+      
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <section class="wrapper">
+      
+                    <div>
+                     <h1 style="color: white;">Sign Up</h1>
+                     <small>It's quick and easy.</small><hr>
+                     
+                      <form action="#" method="get" enctype="multipart/form-data">
+                      
+                     <input style="width: 40%;" type="text" name="first_name" id="first_name" class="first_name" placeholder="First Name">
+                     
+                    
+                     <input style="width: 40%;" type="text" name="surname" id="surname" class="surname" placeholder="Surname"><br><br>
+                     
+                  
+                     <input type="email tel" name="email_tel" id="email_tel" class="email_tel" placeholder="Mobile number or email address"></form><br>
+                     
+                     <input type="password" name="password" id="password" class="password" placeholder="New password"><br><br>
+                     
+                     <label for="">Date of birth  </label><p></p>
+             
+             
+                     <select name="" id="date" class="date">
+                      <option value="1" >1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15" >15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
+                          <option value="21">21</option>
+                          <option value="22">22</option>
+                          <option value="23">23</option>
+                          <option value="24">24</option>
+                          <option value="25">25</option>
+                          <option value="26">26</option>
+                          <option value="27">27</option>
+                          <option value="28">28</option>
+                          <option value="29">29</option>
+                          <option value="30">30</option>
+                          <option value="31">31</option>
+                    </select>
+                    <select name="" id="month" class="month">
+                      <option value="January">January</option>
+                      <option value="February">February</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">August</option>
+                      <option value="September">September</option>
+                      <option value="October">October</option>
+                      <option value="November">November </option>
+                      <option value="December">December </option>
+                    </select> 
+                    
+                    <select name="" id="year" class="year">
+                      <option value="2000">2000</option>
+                      <option value="2001">2001</option>
+                      <option value="2002">2002</option>
+                      <option value="2003">2003</option>
+                      <option value="2004">2004</option>
+                      <option value="2005">2005</option>
+                      <option value="2006">2006</option>
+                      <option value="2007">2007</option>
+                      <option value="2008">2008</option>
+                      <option value="2009">2009 </option>
+                      <option value="2010">2010 </option>
+                      <option value="2011">2011 </option>
+                      <option value="2012">2012 </option>
+                      <option value="2013">2013 </option>
+                      <option value="2014">2014 </option>
+                      <option value="2015">2015 </option>
+                      <option value="2016">2016 </option>
+                      <option value="2017">2017 </option>
+                      <option value="2018">2018 </option>
+                      <option value="2019">2019 </option>
+                      <option value="2020">2020 </option>
+                      <option value="2021">2021 </option>
+                      <option value="2022">2022 </option>
+                    </select>
+                     <br><br>
+                     <label for="gender" >Gender</label><p></p>
+             
+                   <span class="radio_box">  <span>Male</span>
+                   <input type="radio"  name="gender" id="male" class="male"> </span>
+             
+                     <span class="radio_box"><span>Female</span>
+                     <input type="radio"  name="gender" id="female" class="female"> </span>
+                     
+                    <span class="radio_box"> <span>Other</span>
+                    <input type="radio"  name="gender" id="other" class="other"></span>
+                     <div><br><br>
+                      <small>People who use our service may have uploaded your contact information to <br> Facebook. <a href="#">Learn more.</a></small>
+                     <br><br>   <small>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. <br> You may receive SMS notifications from us and can opt out at any time.</small>
+                     </div><br><br>
+                     <button type="submit" class="submit_btn">Sign Up</button>
+             
+                    
+                  </form>
+             </div>       </section>
+             
+            </div>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal
+            btn.onclick = function () {
+                modal.style.display = "block";
+            };
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            };
+        </script>
+    </body>
+</html>

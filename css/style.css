@@ -1,0 +1,49 @@
+.btn_container {
+    display: flex;
+}
+#myBtn,
+.submit_btn {
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    background-color: rgb(69, 167, 69);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit_btn {
+    display: flex;
+}
+.wrapper {
+    width: 80%;
+    margin: 20px 60px 90px 60px;
+    padding: 50px;
+    background-color: lightslategrey;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+small {
+    color: lightgray;
+}
+.email_tel,
+.password {
+    width: 418px;
+}
+input,
+select,
+span {
+    padding: 5px 18px;
+    border: none;
+    border-radius: 5px;
+}
+.radio_box {
+    background-color: white;
+    margin-right: 15px;
+    padding: 5px 10px;
+}
+
+label {
+    color: white;
+}
